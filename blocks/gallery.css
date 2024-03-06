@@ -1,0 +1,23 @@
+.gallery {
+    padding: 0;
+    margin: 92px auto;
+    width: 1184px;
+    height: 442px;
+}
+
+.gallery__list{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crear 3 columnas de igual tamaño */
+    grid-gap: 10px; /* Espaciado entre las celdas */
+}
+
+.gallery__item {
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+.gallery__image {
+    Width: 284px;
+    Height: 213px;
+}

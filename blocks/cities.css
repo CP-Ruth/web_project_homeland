@@ -1,0 +1,11 @@
+.cities{
+    width: 987px;
+    margin: 0 auto;
+}
+
+.cities__list{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}

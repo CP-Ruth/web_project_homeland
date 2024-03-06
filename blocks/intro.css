@@ -1,0 +1,41 @@
+.intro{
+    width: 1017px;
+    margin: auto;
+}
+
+.intro__title{
+    margin-bottom: 40px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.intro__subtitle{
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+width: 722px;
+height: 136px;
+margin: 0;
+}
+
+.intro__subtitle_author{
+    text-align: right;
+    Height: 34px;
+    margin-bottom: 32px;
+}
+
+.intro__text{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+width: 720px;
+height: 182px;
+margin: 0;
+}
