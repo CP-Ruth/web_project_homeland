@@ -1,3 +1,4 @@
+@import url(normalize.css);
 /*importaciones de los bloques*/
 /*detalle de toda la página*/
 @import url(blocks/page.css);
