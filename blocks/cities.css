@@ -25,5 +25,14 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    /* Agrega tus estilos específicos para pantallas de 321px a 768px aquí */
+    .cities{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .cities__list{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
 }
