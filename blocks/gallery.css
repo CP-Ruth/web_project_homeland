@@ -15,11 +15,12 @@
 
 .gallery__item {
     list-style: none; /* Elimina los puntos de la lista */
+    Width: 284px;
+    Height: 213px;
 }
 
 .gallery__image {
-    Width: 284px;
-    Height: 213px;
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
