@@ -15,12 +15,11 @@
 
 .gallery__item {
     list-style: none; /* Elimina los puntos de la lista */
-    Width: 284px;
-    Height: 213px;
 }
 
 .gallery__image {
-    
+    width: 284px;
+    height: 213px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
@@ -38,8 +37,8 @@
         grid-gap: 16px; /* Espaciado entre las celdas */
     }
     .gallery__image {
-        Width: 352px;
-        Height:264px;
+        width: 352px;
+        height:264px;
     }
 }
 
@@ -58,7 +57,7 @@
         align-items: center;
     }
     .gallery__image {
-        Width: 288px;
-        Height:216px;
+        width: 288px;
+        height:216px;
     }
 }
