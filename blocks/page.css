@@ -1,4 +1,4 @@
-.body {
+.page {
     min-width: 1281px;
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
-    .body{
+    .page{
         min-width: 768px;
         max-width: 1280px;
         margin: 0;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .body{
+    .page{
         min-width: 320px;
         max-width: 767px;
         margin: 0;
