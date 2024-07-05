@@ -2,6 +2,10 @@
 
 La página web "De patria a patria" es un proyecto de desarrollo web en TripleTen. Fue creado utilizando HTML y CSS, con base en un informe de diseño.
 
+## Despliegue del Proyecto
+Puedes ver el proyecto desplegado en GitHub Pages a través del siguiente enlace:
+https://cp-ruth.github.io/web_project_homeland/
+
 ## Características del proyecto
 
 HTML5 semántico
