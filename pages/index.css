@@ -8,6 +8,11 @@
 /*Detalles del main*/
 /*intro*/
 @import url(../blocks/intro.css);
+/*gallery*/
+@import url(../blocks/gallery.css);
+/*ciudades*/
+@import url(../blocks/cities.css);
+@import url(../blocks/card.css);
 /*Detalles del footer*/
 @import url(../blocks/footer.css);
 
