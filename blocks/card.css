@@ -32,8 +32,12 @@
     margin: 48px 0;
 }
 
+.card__city_image:hover{
+  filter:  brightness(0.5)
+}
+
 .card__city_button{
-    background-color: rgba(2, 120, 254, 1);
+    background: linear-gradient(to right, #0278FE, #003A7B);
     width: 355px;
     height: 48px;
     border-radius: 4px;
@@ -47,7 +51,7 @@
 }
 
 .card__city_button:hover{
-    background: rgba(0, 99, 210, 1);
+    background: linear-gradient(to right, rgba(2, 120, 254, 0.25), rgba(0, 58, 123, 0.25));
 }
 
 .card__city_link{
@@ -147,7 +151,7 @@
         margin: 48px 0;
     }
     .card__city_button{
-        background-color: rgba(2, 120, 254, 1);
+        background-color: linear-gradient(to right, #0278FE, #003A7B);
         width: 288px;
         height: 48px;
         border-radius: 4px;
