@@ -1,10 +1,10 @@
-.city-card{
+.place-card{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.city-card__title{
+.place-card__title{
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
@@ -13,30 +13,32 @@
     margin: 0;
 }
 
-.city-card__teammate{
+.place-card__teammate{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.city-card__text{
+.place-card__text{
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     margin: 0;
 }
 
-.city-card__image{
+.place-card__image{
     width: 460px;
     height: 460px;
     margin: 48px 0;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+
 }
 
-.city-card__image:hover{
+.place-card__image:hover{
   filter:  brightness(0.5)
 }
 
-.city-card__button{
+.place-card__button{
     background: linear-gradient(to right, #0278FE, #003A7B);
     width: 289px;
     height: 48px;
@@ -48,31 +50,33 @@
     line-height: 22px;
     letter-spacing: 0em;
     cursor: pointer;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+
 }
 
-.city-card__button:hover{
+.place-card__button:hover{
     background: linear-gradient(to right, rgba(2, 120, 254, 0.25), rgba(0, 58, 123, 0.25));
 }
 
-.city-card__description{
+.place-card__description{
     margin: 48px 0;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.city-card__description >*{
+.place-card__description >*{
     line-height: 29px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px){
-    .city-card{
+    .place-card{
         list-style: none;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 26px;
     }
-    .city-card__title{
+    .place-card__title{
         font-size: 42px;
         font-weight: 900;
         line-height: 46px;
@@ -80,23 +84,23 @@
         text-align: left;
         margin: 0;
     }
-    .city-card__teammate{
+    .place-card__teammate{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     }
-    .city-card__text{
+    .place-card__text{
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
         margin: 0;
     }
-    .city-card__image{
+    .place-card__image{
         width: 340px;
         height: 340px;
         margin: 48px 0;
     }
-    .city-card__description{
+    .place-card__description{
         margin: 48px 0;
         display: flex;
         flex-direction: column;
@@ -106,12 +110,12 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     /* Agrega tus estilos específicos para pantallas de 321px a 768px aquí */
-    .city-card{
+    .place-card{
         list-style: none;
         display: flex;
         flex-direction: column;
     }
-    .city-card__title{
+    .place-card__title{
         font-size: 32px;
         font-weight: 900;
         line-height: 35px;
@@ -120,7 +124,7 @@
         margin: 0 auto;
         width: 288px;
     }
-    .city-card__teammate{
+    .place-card__teammate{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -130,23 +134,23 @@
         width: 288px;
         margin: 30px auto 0;
     }
-    .city-card__text{
+    .place-card__text{
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
         margin: 0;
     }
-    .city-card__column{
+    .place-card__column{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .city-card__image{
+    .place-card__image{
         width: 320px;
         height: 320px;
         margin: 48px 0;
     }
-    .city-card__button{
+    .place-card__button{
         background-color: linear-gradient(to right, #0278FE, #003A7B);
         width: 288px;
         height: 48px;
@@ -159,7 +163,7 @@
         letter-spacing: 0em;
         cursor: pointer;
     }
-    .city-card__description{
+    .place-card__description{
         width: 288px;
         margin: 16px  auto 8px;
         display: flex;
