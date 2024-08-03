@@ -184,7 +184,7 @@ filter:  brightness(0.5)
       margin: 48px 0;
   }
   .places-card__button{
-      background-color: linear-gradient(to right, #0278FE, #003A7B);
+      background: linear-gradient(to right, #0278FE, #003A7B);
       width: 288px;
       height: 48px;
       border-radius: 4px;
