@@ -1,5 +1,5 @@
 .intro{
-    width: 1017px;
+    width: 984px;
     margin: auto;
 }
 
@@ -10,6 +10,7 @@
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
+    width: 830px;
 }
 
 .intro__subtitle{
@@ -55,7 +56,7 @@ margin: 0;
         letter-spacing: 0em;
         text-align: left;
         width: 720px;
-        
+
         margin: 0;
     }
     .intro__subtitle_author{
@@ -70,7 +71,7 @@ margin: 0;
         width: 320px;
         height: 960px;
     }
-    
+
     .intro__title{
         margin-bottom: 40px;
         font-size: 32px;
@@ -81,7 +82,7 @@ margin: 0;
         width: 288px;
         margin: 0 auto 10px;
     }
-    
+
     .intro__subtitle{
     font-size: 24px;
     font-weight: 400;
@@ -92,12 +93,12 @@ margin: 0;
     height: 300px;
     margin: 0 auto;
     }
-    
+
     .intro__subtitle_author{
         text-align: right;
         Height: 34px;
     }
-    
+
     .intro__text{
     font-size: 16px;
     font-weight: 400;
