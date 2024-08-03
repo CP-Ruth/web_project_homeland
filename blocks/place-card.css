@@ -39,7 +39,7 @@
 }
 
 .place-card__button{
-    background: linear-gradient(to right, #0278FE, #003A7B);
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     width: 289px;
     height: 48px;
     border-radius: 4px;
@@ -55,7 +55,7 @@
 }
 
 .place-card__button:hover{
-    background: linear-gradient(to right, rgba(2, 120, 254, 0.25), rgba(0, 58, 123, 0.25));
+    background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .place-card__description{
