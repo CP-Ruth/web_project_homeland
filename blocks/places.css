@@ -2,7 +2,7 @@
     width: 987px;
     margin: 0 auto;
     padding: 0;
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 80px;
 }
