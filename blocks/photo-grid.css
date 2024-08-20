@@ -9,12 +9,12 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Crear 4 columnas de igual tamaño */
-    grid-gap: 16px; /* Espaciado entre las celdas */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
 }
 
 .photo-grid__item {
-    list-style: none;/* Elimina los puntos de la lista */
+    list-style: none;
     Width: 284px;
     Height: 213px;
 
@@ -37,8 +37,8 @@
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Crear 2 columnas de igual tamaño */
-        grid-gap: 16px; /* Espaciado entre las celdas */
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
     }
     .photo-grid__image {
         Width: 352px;
@@ -46,7 +46,7 @@
     }
 
     .photo-grid__item {
-      list-style: none;/* Elimina los puntos de la lista */
+      list-style: none;
       Width: 352px;
       Height:264px;
 
@@ -73,7 +73,7 @@
 }
 
 .photo-grid__item {
-  list-style: none;/* Elimina los puntos de la lista */
+  list-style: none;
   Width: 288px;
     Height:216px;
 

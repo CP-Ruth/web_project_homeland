@@ -5,17 +5,15 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #2A2C2F;
-  min-width: 320px; /* Ajuste para asegurar el diseño en tamaños muy pequeños */
+  min-width: 320px;
 }
 
-/* Para pantallas grandes (1281px y más) */
 @media screen and (min-width: 1281px) {
   .page {
       min-width: 1281px;
   }
 }
 
-/* Para pantallas medianas (768px a 1280px) */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .page {
       min-width: 768px;
@@ -23,7 +21,6 @@
   }
 }
 
-/* Para pantallas pequeñas (320px a 767px) */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page {
       min-width: 320px;
